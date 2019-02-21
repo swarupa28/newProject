@@ -4,7 +4,7 @@ pipeline {
         checkoutToSubdirectory('source')
     }
     tools {
-        maven 'Maven-3.6.0'
+        maven 'M3'
         jdk 'JDK-8'
     }
     stages {
